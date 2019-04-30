@@ -213,7 +213,7 @@ It is highly recommended to couple the moderation actions with the message logs,
         </div>
         <hr />
         <div class="form-group">
-            <label>Allow users with the following roles to use the mute commands</label><br>
+            <label>Users with the following roles will have permission to use mute related commands</label><br>
             <select class="multiselect" name="MuteCmdRoles" data-plugin-multiselect multiple="multiple">
                 {{roleOptionsMulti .ActiveGuild.Roles nil .ModConfig.MuteCmdRoles}}
             </select>
